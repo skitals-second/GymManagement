@@ -15,6 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Contracts", "src\GymManagement.Contracts\GymManagement.Contracts.csproj", "{94076BE5-AF03-46CD-B207-E5B3B08121AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "requests", "requests", "{9254A192-8F10-4759-919A-8FE978F2F89E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscriptions", "Subscriptions", "{D30C95BB-05D6-4526-8E56-8CE091F0F4F8}"
+	ProjectSection(SolutionItems) = preProject
+		requests\Subscriptions\CreateSubscription.http = requests\Subscriptions\CreateSubscription.http
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,5 +102,6 @@ Global
 		{70AFC213-2674-48F4-9686-3FEDAE65BD7E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{C98C6348-7665-46EC-BA60-2CE1B335329A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{94076BE5-AF03-46CD-B207-E5B3B08121AD} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D30C95BB-05D6-4526-8E56-8CE091F0F4F8} = {9254A192-8F10-4759-919A-8FE978F2F89E}
 	EndGlobalSection
 EndGlobal
